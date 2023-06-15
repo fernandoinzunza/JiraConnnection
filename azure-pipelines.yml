@@ -37,8 +37,8 @@ steps:
   inputs:
     SonarQube: '$(sonarQubeCon)'
     scannerMode: 'MSBuild'
-    projectName: 'JiraConnection'
-    projectVersion: '$(Build.BuildNumber)'
+    projectKey: 'Jira-Connection'
+    projectName: 'Jira Connection'
     extraProperties: /d:sonar.cs.vscoveragexml.reportsPaths="**\*.coveragexml"
   continueOnError: true
 
