@@ -1,0 +1,54 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+  branches:
+    include:
+    - dev
+    - dev_qa
+    - master
+    - release/*
+
+pool: 'Croem Build Servers'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  sonarQubeCon: 'SonarQube'
+  buildConfiguration: 'Release'
+  isDev: $[eq(variables['Build.SourceBranch'], 'refs/heads/dev')]
+
+steps:
+- task: UseDotNet@2
+  displayName: 'Use .NET Core 7'
+  inputs:
+    version: 7.x
+ 
+- task: DotNetCoreCLI@2
+  displayName: Restore
+  inputs:
+    command: restore
+    projects: '**/*.csproj'
+ 
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet build'
+  inputs:
+    command: build
+    projects: '**/*.csproj'
+ 
+- task: DotNetCoreCLI@2
+  displayName: Publish
+  inputs:
+    command: publish
+    publishWebProjects: false
+    projects: '**/*.csproj'
+    arguments: '--configuration release --output $(build.artifactstagingdirectory) /property:PublishWithAspNetCoreTargetManifest=false'
+    zipAfterPublish: false
+ 
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
+  inputs:
+    targetPath: '$(Build.ArtifactStagingDirectory)' 
+    ArtifactName: myproject
