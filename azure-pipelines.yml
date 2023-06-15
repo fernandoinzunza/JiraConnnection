@@ -35,7 +35,6 @@ steps:
 - task: SonarQubePrepare@5
   displayName: 'Prepare analysis on SonarQube'
   enabled: true
-  condition: and(succeeded(), eq(variables.isDev, true)
   inputs:
     SonarQube: '$(sonarQubeCon)'
     scannerMode: 'MSBuild'
@@ -53,13 +52,11 @@ steps:
  
 - task: SonarQubeAnalyze@5
   enabled: true
-  condition: and(succeeded(), eq(variables.isDev, true))
   displayName: 'Run SonarQube Code Analysis'
   continueOnError: true
 
 - task: SonarQubePublish@5
   enabled: true
-  condition: and(succeeded(), eq(variables.isDev, true))
   displayName: 'Publish Quality Gate Result'
   continueOnError: true
   inputs:
