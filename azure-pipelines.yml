@@ -31,13 +31,40 @@ steps:
   inputs:
     command: restore
     projects: '**/*.csproj'
- 
+
+- task: SonarQubePrepare@5
+  displayName: 'Prepare analysis on SonarQube'
+  enabled: true
+  condition: and(succeeded(), eq(variables.isDev, true)
+  inputs:
+    SonarQube: '$(sonarQubeCon)'
+    scannerMode: 'MSBuild'
+    projectKey: '$(System.TeamProject)_$(Build.DefinitionName)'
+    projectName: '$(System.TeamProject)_$(Build.DefinitionName)'
+    projectVersion: '$(Build.BuildNumber)'
+    extraProperties: /d:sonar.cs.vscoveragexml.reportsPaths="**\*.coveragexml"
+  continueOnError: true
+
 - task: DotNetCoreCLI@2
   displayName: 'dotnet build'
   inputs:
     command: build
     projects: '**/*.csproj'
  
+- task: SonarQubeAnalyze@5
+  enabled: true
+  condition: and(succeeded(), eq(variables.isDev, true))
+  displayName: 'Run SonarQube Code Analysis'
+  continueOnError: true
+
+- task: SonarQubePublish@5
+  enabled: true
+  condition: and(succeeded(), eq(variables.isDev, true))
+  displayName: 'Publish Quality Gate Result'
+  continueOnError: true
+  inputs:
+    pollingTimeoutSec: '300'
+
 - task: DotNetCoreCLI@2
   displayName: Publish
   inputs:
@@ -52,3 +79,6 @@ steps:
   inputs:
     targetPath: '$(Build.ArtifactStagingDirectory)' 
     ArtifactName: myproject
+
+- task: git-tag-on-release-task@9
+  displayName: "Tag Artifact"
