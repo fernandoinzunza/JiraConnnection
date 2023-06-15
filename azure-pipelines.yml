@@ -18,7 +18,6 @@ variables:
   buildPlatform: 'Any CPU'
   sonarQubeCon: 'SonarQube'
   buildConfiguration: 'Release'
-  isDev: $[eq(variables['Build.SourceBranch'], 'refs/heads/dev')]
 
 steps:
 - task: UseDotNet@2
@@ -38,8 +37,7 @@ steps:
   inputs:
     SonarQube: '$(sonarQubeCon)'
     scannerMode: 'MSBuild'
-    projectKey: '$(System.TeamProject)_$(Build.DefinitionName)'
-    projectName: '$(System.TeamProject)_$(Build.DefinitionName)'
+    projectName: 'JiraConnection'
     projectVersion: '$(Build.BuildNumber)'
     extraProperties: /d:sonar.cs.vscoveragexml.reportsPaths="**\*.coveragexml"
   continueOnError: true
