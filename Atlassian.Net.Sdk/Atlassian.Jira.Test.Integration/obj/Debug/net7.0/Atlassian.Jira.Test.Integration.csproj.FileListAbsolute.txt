@@ -1,0 +1,44 @@
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\xunit.runner.reporters.netcoreapp10.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\xunit.runner.utility.netcoreapp10.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Trace_CustomFieldArrayOfObjects.txt
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Trace_CustomFieldEmptyArray.txt
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.Test.Integration.deps.json
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.Test.Integration.runtimeconfig.json
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.Test.Integration.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.Test.Integration.pdb
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.pdb
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.csproj.AssemblyReference.cache
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.GeneratedMSBuildEditorConfig.editorconfig
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.AssemblyInfoInputs.cache
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.AssemblyInfo.cs
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.csproj.CoreCompileInputs.cache
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.csproj.CopyComplete
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\refint\Atlassian.Jira.Test.Integration.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.pdb
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.genruntimeconfig.cache
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\ref\Atlassian.Jira.Test.Integration.dll
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\xunit.runner.reporters.netcoreapp10.dll
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\xunit.runner.utility.netcoreapp10.dll
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Trace_CustomFieldArrayOfObjects.txt
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Trace_CustomFieldEmptyArray.txt
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.Test.Integration.deps.json
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.Test.Integration.runtimeconfig.json
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.Test.Integration.dll
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.Test.Integration.pdb
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.dll
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\bin\Debug\net7.0\Atlassian.Jira.pdb
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.csproj.AssemblyReference.cache
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.AssemblyInfoInputs.cache
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.AssemblyInfo.cs
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.csproj.CoreCompileInputs.cache
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.csproj.CopyComplete
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.dll
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\refint\Atlassian.Jira.Test.Integration.dll
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.pdb
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\Atlassian.Jira.Test.Integration.genruntimeconfig.cache
+D:\Proyectos\Tfs\JiraConnection\Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\obj\Debug\net7.0\ref\Atlassian.Jira.Test.Integration.dll

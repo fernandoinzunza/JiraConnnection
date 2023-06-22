@@ -1,0 +1,2 @@
+D:\Proyectos\Tfs\JiraConnection\Framework.Template\obj\Debug\Framework.Template.esproj.SuggestedBindingRedirects.cache
+D:\Proyectos\Tfs\JiraConnection\Framework.Template\obj\Debug\Framework.Template.esproj.CoreCompileInputs.cache

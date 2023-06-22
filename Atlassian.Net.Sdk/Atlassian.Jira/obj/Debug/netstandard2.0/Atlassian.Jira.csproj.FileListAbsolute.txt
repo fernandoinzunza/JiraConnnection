@@ -1,0 +1,20 @@
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f\Atlassian.Jira\bin\Debug\netstandard2.0\Atlassian.Jira.deps.json
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f\Atlassian.Jira\bin\Debug\netstandard2.0\Atlassian.Jira.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f\Atlassian.Jira\bin\Debug\netstandard2.0\Atlassian.Jira.pdb
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.csproj.AssemblyReference.cache
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.GeneratedMSBuildEditorConfig.editorconfig
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.AssemblyInfoInputs.cache
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.AssemblyInfo.cs
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.csproj.CoreCompileInputs.cache
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.pdb
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira\bin\Debug\netstandard2.0\Atlassian.Jira.deps.json
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira\bin\Debug\netstandard2.0\Atlassian.Jira.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira\bin\Debug\netstandard2.0\Atlassian.Jira.pdb
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.csproj.AssemblyReference.cache
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.GeneratedMSBuildEditorConfig.editorconfig
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.AssemblyInfoInputs.cache
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.AssemblyInfo.cs
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.csproj.CoreCompileInputs.cache
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.dll
+D:\Revisar\farmas-atlassian.net-sdk-afc6b262d16f - copia\Atlassian.Jira\obj\Debug\netstandard2.0\Atlassian.Jira.pdb

@@ -1,0 +1,4 @@
+D:\Proyectos\Tfs\JiraConnection\Framework.Template\obj\Debug\Jiraconnection.Web.esproj.SuggestedBindingRedirects.cache
+D:\Proyectos\Tfs\JiraConnection\Framework.Template\obj\Debug\Jiraconnection.Web.esproj.CoreCompileInputs.cache
+D:\Proyectos\Tfs\JiraConnection\JiraConnection.Web\obj\Debug\JiraConnection.Web.esproj.SuggestedBindingRedirects.cache
+D:\Proyectos\Tfs\JiraConnection\JiraConnection.Web\obj\Debug\JiraConnection.Web.esproj.CoreCompileInputs.cache
