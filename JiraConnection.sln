@@ -3,35 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Atlassian.Net.Sdk", "Atlassian.Net.Sdk", "{F34B15F8-7E68-45B1-B044-8F151772CD09}"
-	ProjectSection(SolutionItems) = preProject
-		Atlassian.Net.Sdk\AtlassianIcon.png = Atlassian.Net.Sdk\AtlassianIcon.png
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{F547BCAD-3C53-45D1-B0DD-1E1B7E58DAAC}"
-	ProjectSection(SolutionItems) = preProject
-		Atlassian.Net.Sdk\Documentation\change-history.md = Atlassian.Net.Sdk\Documentation\change-history.md
-		Atlassian.Net.Sdk\Documentation\how-to-configure-issue-fields-to-fetch.md = Atlassian.Net.Sdk\Documentation\how-to-configure-issue-fields-to-fetch.md
-		Atlassian.Net.Sdk\Documentation\how-to-connect-using-oauth.md = Atlassian.Net.Sdk\Documentation\how-to-connect-using-oauth.md
-		Atlassian.Net.Sdk\Documentation\how-to-debug-problems.md = Atlassian.Net.Sdk\Documentation\how-to-debug-problems.md
-		Atlassian.Net.Sdk\Documentation\how-to-handle-gdpr-changes.md = Atlassian.Net.Sdk\Documentation\how-to-handle-gdpr-changes.md
-		Atlassian.Net.Sdk\Documentation\how-to-run-the-integration-tests.md = Atlassian.Net.Sdk\Documentation\how-to-run-the-integration-tests.md
-		Atlassian.Net.Sdk\Documentation\how-to-use-custom-fields.md = Atlassian.Net.Sdk\Documentation\how-to-use-custom-fields.md
-		Atlassian.Net.Sdk\Documentation\how-to-use-the-sdk.md = Atlassian.Net.Sdk\Documentation\how-to-use-the-sdk.md
-		Atlassian.Net.Sdk\Documentation\README.md = Atlassian.Net.Sdk\Documentation\README.md
-		Atlassian.Net.Sdk\Documentation\reference-appveyor-build-script.md = Atlassian.Net.Sdk\Documentation\reference-appveyor-build-script.md
-		Atlassian.Net.Sdk\Documentation\reference-jql.md = Atlassian.Net.Sdk\Documentation\reference-jql.md
-	EndProjectSection
-EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "JiraConnection.Web", "JiraConnection.Web\JiraConnection.Web.esproj", "{02558F7E-5742-428B-8928-CD6CB727EBE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC219011-0A88-472A-8B3A-C43ED1D4589B} = {FC219011-0A88-472A-8B3A-C43ED1D4589B}
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atlassian.Jira", "Atlassian.Net.Sdk\Atlassian.Jira\Atlassian.Jira.csproj", "{6B109612-B51C-40B3-B499-FCCEA8B937F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiraConnection.Api", "..\JiraConnection.Api\JiraConnection.Api\JiraConnection.Api.csproj", "{FC219011-0A88-472A-8B3A-C43ED1D4589B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atlassian.Jira.Test", "Atlassian.Net.Sdk\Atlassian.Jira.Test\Atlassian.Jira.Test.csproj", "{0B8B21A9-A8AA-4C42-8021-A46328622224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiraConnection.Core", "..\JiraConnection.Api\JiraConnection.Core\JiraConnection.Core.csproj", "{8C34C174-4641-4BCF-AD10-4FB5F4D73C69}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atlassian.Jira.Test.Integration", "Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration\Atlassian.Jira.Test.Integration.csproj", "{81382EA9-8054-4528-919C-9955B0B6AB9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiraConnection.Infrastructure", "..\JiraConnection.Api\JiraConnection.Infrastructure\JiraConnection.Infrastructure.csproj", "{2599C437-7B2F-4356-954C-49078C293B37}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atlassian.Jira.Test.Integration.Setup", "Atlassian.Net.Sdk\Atlassian.Jira.Test.Integration.Setup\Atlassian.Jira.Test.Integration.Setup.csproj", "{877CF6DA-5E58-4C6E-A048-696C9E0496E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atlassian.Jira", "..\Atlassian.Net.Sdk\Atlassian.Jira\Atlassian.Jira.csproj", "{5991B7A1-B685-4BFA-8D85-BBC668DDA567}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,32 +28,25 @@ Global
 		{02558F7E-5742-428B-8928-CD6CB727EBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02558F7E-5742-428B-8928-CD6CB727EBE6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{02558F7E-5742-428B-8928-CD6CB727EBE6}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{6B109612-B51C-40B3-B499-FCCEA8B937F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B109612-B51C-40B3-B499-FCCEA8B937F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B109612-B51C-40B3-B499-FCCEA8B937F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B109612-B51C-40B3-B499-FCCEA8B937F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0B8B21A9-A8AA-4C42-8021-A46328622224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B8B21A9-A8AA-4C42-8021-A46328622224}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B8B21A9-A8AA-4C42-8021-A46328622224}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B8B21A9-A8AA-4C42-8021-A46328622224}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81382EA9-8054-4528-919C-9955B0B6AB9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81382EA9-8054-4528-919C-9955B0B6AB9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81382EA9-8054-4528-919C-9955B0B6AB9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81382EA9-8054-4528-919C-9955B0B6AB9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{877CF6DA-5E58-4C6E-A048-696C9E0496E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{877CF6DA-5E58-4C6E-A048-696C9E0496E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{877CF6DA-5E58-4C6E-A048-696C9E0496E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{877CF6DA-5E58-4C6E-A048-696C9E0496E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC219011-0A88-472A-8B3A-C43ED1D4589B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC219011-0A88-472A-8B3A-C43ED1D4589B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC219011-0A88-472A-8B3A-C43ED1D4589B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC219011-0A88-472A-8B3A-C43ED1D4589B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C34C174-4641-4BCF-AD10-4FB5F4D73C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C34C174-4641-4BCF-AD10-4FB5F4D73C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C34C174-4641-4BCF-AD10-4FB5F4D73C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C34C174-4641-4BCF-AD10-4FB5F4D73C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2599C437-7B2F-4356-954C-49078C293B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2599C437-7B2F-4356-954C-49078C293B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2599C437-7B2F-4356-954C-49078C293B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2599C437-7B2F-4356-954C-49078C293B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5991B7A1-B685-4BFA-8D85-BBC668DDA567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5991B7A1-B685-4BFA-8D85-BBC668DDA567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5991B7A1-B685-4BFA-8D85-BBC668DDA567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5991B7A1-B685-4BFA-8D85-BBC668DDA567}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F547BCAD-3C53-45D1-B0DD-1E1B7E58DAAC} = {F34B15F8-7E68-45B1-B044-8F151772CD09}
-		{6B109612-B51C-40B3-B499-FCCEA8B937F9} = {F34B15F8-7E68-45B1-B044-8F151772CD09}
-		{0B8B21A9-A8AA-4C42-8021-A46328622224} = {F34B15F8-7E68-45B1-B044-8F151772CD09}
-		{81382EA9-8054-4528-919C-9955B0B6AB9B} = {F34B15F8-7E68-45B1-B044-8F151772CD09}
-		{877CF6DA-5E58-4C6E-A048-696C9E0496E0} = {F34B15F8-7E68-45B1-B044-8F151772CD09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {50941AF0-BF7B-4EF7-B5CA-DFB9F43961C7}
